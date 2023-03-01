@@ -11,11 +11,21 @@ body{
     grid-template-rows: 100px 1fr 50px;
     padding: 70px 70px 70px 24px;
     background-color: #F5CF06;
+    color: #8E4106;
+    font-family: 'Righteous', cursive;
 }
 
-header{
-    background-color: violet;
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 24px;
 }
+
+.logo__text{
+    font-size: 32;
+    font-weight: 100;
+}
+
 main{
     background-color: rgb(173, 236, 255);
 }
